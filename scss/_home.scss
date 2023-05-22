@@ -1,0 +1,23 @@
+header {
+    @include flexbox(space-between, flex-end, $flexDirection, 150px);
+    padding: 20px 16px;
+    .logo {
+      width: 100px;
+      img {
+        width: 100%;
+      }
+    }
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 30px;
+      a {
+        @include myStyle;
+        font-family: $fontFamily1;
+        &:hover {
+          color: yellow !important;
+        }
+      }
+    }
+  }
