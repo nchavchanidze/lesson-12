@@ -60,6 +60,10 @@ li {
   box-sizing: border-box;
 }
 
+html, body {
+  scroll-behavior: smooth;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -87,4 +91,10 @@ header nav a {
 }
 header nav a:hover {
   color: yellow !important;
+}
+
+#about {
+  background-color: pink;
+  height: 700px;
+  margin-top: 400px;
 }/*# sourceMappingURL=styles.css.map */
